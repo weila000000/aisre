@@ -1,0 +1,710 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "Mini Program AI",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Mini Program AI"
+      },
+      "url": "/"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "Features",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "Pricing",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "Showcase",
+          "url": "/#showcase",
+          "icon": "BiCube",
+          "children": [
+            {
+              "title": "E-commerce Mini Program",
+              "description": "AI-generated E-commerce solution",
+              "icon": "MdOutlineShoppingBag",
+              "url": "https://miniprogramai.com/showcase/ecommerce",
+              "target": "_blank"
+            },
+            {
+              "title": "Service Booking App",
+              "description": "AI-powered booking system",
+              "icon": "MdOutlineCalendarToday",
+              "url": "https://miniprogramai.com/showcase/booking",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "Get Started",
+        "url": "https://miniprogramai.com",
+        "target": "_blank",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "Launch Your Mini Program Business with AI-Generated Code",
+    "highlight_text": "AI-Generated",
+    "description": "Mini Program AI is an entrepreneurship program code generator that helps you build custom mini programs without coding skills.<br/>Start your business in minutes, not months.",
+    "announcement": {
+      "label": "NEW",
+      "title": "🚀 Launch Special Offer",
+      "url": "/#pricing"
+    },
+    "tip": "🎁 30% off for early adopters",
+    "buttons": [
+      {
+        "title": "Start Building",
+        "icon": "RiFlashlightFill",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "View Demos",
+        "icon": "RiEyeLine",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "Powered by cutting-edge technologies",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "OpenAI",
+        "image": {
+          "src": "/imgs/logos/openai.svg",
+          "alt": "OpenAI"
+        }
+      },
+      {
+        "title": "WeChat",
+        "image": {
+          "src": "/imgs/logos/wechat.svg",
+          "alt": "WeChat"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "What is Mini Program AI",
+    "label": "Introduce",
+    "description": "Mini Program AI is a revolutionary code generator that helps entrepreneurs create custom mini programs for platforms like WeChat, Alipay, and more without coding knowledge.",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "AI-Powered Generation",
+        "description": "Describe your business idea in plain language and our AI generates the complete code structure for you.",
+        "icon": "RiRobot2Line"
+      },
+      {
+        "title": "Ready-to-Use Templates",
+        "description": "Choose from industry-specific templates designed for various business models and customize them instantly.",
+        "icon": "RiLayoutGridLine"
+      },
+      {
+        "title": "No-Code Platform",
+        "description": "Build, edit, and launch your mini program with our intuitive visual interface - no coding required.",
+        "icon": "RiCodeBoxLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "Why Choose Mini Program AI",
+    "label": "Benefits",
+    "description": "Launch your mini program business faster, smarter, and more cost-effectively than traditional development.",
+    "items": [
+      {
+        "title": "Save Time & Money",
+        "description": "Reduce development time from months to days and cut costs by up to 90% compared to hiring developers.",
+        "icon": "RiTimeLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "Industry-Optimized Solutions",
+        "description": "Get mini programs specifically designed for your industry with built-in best practices and conversion-optimized flows.",
+        "icon": "RiStore2Line",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "Future-Proof Business",
+        "description": "Automatic updates, scalable architecture, and continuous AI improvements ensure your mini program stays current.",
+        "icon": "RiRocketLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "How to Create Your Mini Program",
+    "description": "Launch your business in four simple steps:",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "Describe Your Business",
+        "description": "Tell our AI about your business idea, target audience, and key features you need in your mini program.",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "Customize Your Template",
+        "description": "Select a template and personalize it with your branding, content, and specific business requirements.",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "Review & Edit",
+        "description": "Preview your mini program, make adjustments using our visual editor, and test all functionalities.",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "Deploy & Launch",
+        "description": "Publish your mini program to your chosen platform with one click and start acquiring customers.",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "Key Features of Mini Program AI",
+    "description": "Everything entrepreneurs need to build successful mini program businesses.",
+    "items": [
+      {
+        "title": "AI Code Generation",
+        "description": "Convert plain text descriptions into fully functional, optimized mini program code.",
+        "icon": "RiCodeLine"
+      },
+      {
+        "title": "Multi-Platform Support",
+        "description": "Create mini programs for WeChat, Alipay, Baidu, and other popular platforms.",
+        "icon": "RiSmartphoneLine"
+      },
+      {
+        "title": "Payment Integration",
+        "description": "Built-in support for multiple payment gateways, including WeChat Pay, Alipay, and more.",
+        "icon": "RiSecurePaymentLine"
+      },
+      {
+        "title": "Business Analytics",
+        "description": "Comprehensive analytics dashboard to track user engagement, sales, and growth.",
+        "icon": "RiBarChart2Line"
+      },
+      {
+        "title": "Customer Management",
+        "description": "Integrated CRM system to manage customers, orders, and communication.",
+        "icon": "RiUserSettingsLine"
+      },
+      {
+        "title": "Marketing Tools",
+        "description": "Built-in marketing capabilities including promotions, loyalty programs, and social sharing.",
+        "icon": "RiMegaphoneLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "Successful Mini Programs Built With Our Platform",
+    "description": "Join hundreds of entrepreneurs who launched their businesses with Mini Program AI.",
+    "items": [
+      {
+        "title": "FreshMart",
+        "description": "Grocery Delivery Mini Program",
+        "url": "https://miniprogramai.com/showcase/freshmart",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "BeautyBook",
+        "description": "Salon Appointment System",
+        "url": "https://miniprogramai.com/showcase/beautybook",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "TechFix",
+        "description": "On-demand Repair Service",
+        "url": "https://miniprogramai.com/showcase/techfix",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "FitPro",
+        "description": "Fitness Training App",
+        "url": "https://miniprogramai.com/showcase/fitpro",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "QuickTable",
+        "description": "Restaurant Reservation System",
+        "url": "https://miniprogramai.com/showcase/quicktable",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "EduQuest",
+        "description": "Online Learning Platform",
+        "url": "https://miniprogramai.com/showcase/eduquest",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "StyleShop",
+        "description": "Fashion E-commerce",
+        "url": "https://miniprogramai.com/showcase/styleshop",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "LocalGuide",
+        "description": "City Tourism Mini Program",
+        "url": "https://miniprogramai.com/showcase/localguide",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      },
+      {
+        "title": "MediConnect",
+        "description": "Healthcare Appointment System",
+        "url": "https://miniprogramai.com/showcase/mediconnect",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/9.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "Stats",
+    "title": "Growing Community of Entrepreneurs",
+    "description": "Join thousands of business owners who've launched their mini programs with our platform.",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "Trusted by",
+        "label": "5,000+",
+        "description": "Entrepreneurs"
+      },
+      {
+        "title": "Available",
+        "label": "30+",
+        "description": "Industry Templates"
+      },
+      {
+        "title": "Launch in",
+        "label": "72",
+        "description": "Hours or Less"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "Pricing",
+    "title": "Simple, Transparent Pricing",
+    "description": "Choose the plan that fits your business needs and budget.",
+    "groups": [],
+    "items": [
+      {
+        "title": "Starter",
+        "description": "Perfect for small businesses launching their first mini program.",
+        "features_title": "Includes",
+        "features": [
+          "1 mini program with basic features",
+          "E-commerce functionality",
+          "Customer management system",
+          "Basic analytics",
+          "Payment gateway integration",
+          "Standard templates",
+          "Email support"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$149",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Perfect for startups and small businesses!",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "Mini Program AI Starter",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "Growth",
+        "description": "Ideal for growing businesses with advanced needs.",
+        "label": "Popular",
+        "features_title": "Everything in Starter, plus",
+        "features": [
+          "3 mini programs with advanced features",
+          "Advanced e-commerce functionality",
+          "CRM integration",
+          "Comprehensive analytics",
+          "Multiple payment gateways",
+          "Premium templates",
+          "Priority email support",
+          "Marketing automation tools"
+        ],
+        "interval": "one-time",
+        "amount": 19900,
+        "cn_amount": 139900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "USD",
+        "is_featured": true,
+        "tip": "Most popular option for businesses!",
+        "button": {
+          "title": "Get Started",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "growth",
+        "product_name": "Mini Program AI Growth",
+        "credits": 200,
+        "valid_months": 3
+      },
+      {
+        "title": "Enterprise",
+        "description": "Custom solutions for larger businesses and agencies.",
+        "features_title": "Everything in Growth, plus",
+        "features": [
+          "Unlimited mini programs",
+          "Custom functionality development",
+          "White-label options",
+          "API access",
+          "Enterprise-level analytics",
+          "Custom integrations",
+          "Dedicated account manager",
+          "24/7 priority support"
+        ],
+        "interval": "one-time",
+        "amount": 49900,
+        "cn_amount": 299900,
+        "currency": "USD",
+        "price": "$499",
+        "original_price": "$699",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "Full enterprise solution for serious businesses!",
+        "button": {
+          "title": "Contact Sales",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "enterprise",
+        "product_name": "Mini Program AI Enterprise",
+        "credits": 300,
+        "valid_months": 12
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "Testimonial",
+    "title": "Success Stories from Our Customers",
+    "description": "Hear from entrepreneurs who transformed their business ideas into reality with Mini Program AI.",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "Sarah Johnson",
+        "label": "Founder of FreshMart",
+        "description": "From concept to launch in just 3 days! Our grocery delivery mini program helped us reach 1,000 customers in the first month. The AI-generated code worked flawlessly.",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "Michael Zhang",
+        "label": "Owner of StyleShop",
+        "description": "As someone with zero coding knowledge, I never thought I could launch an e-commerce business. Mini Program AI made it possible, and we're now processing over 100 orders daily.",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "Emma Rodriguez",
+        "label": "Founder of BeautyBook",
+        "description": "The salon appointment system we created has completely transformed our business. Our customers love the easy booking experience, and we've reduced no-shows by 75%.",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "David Kim",
+        "label": "CEO of TechFix",
+        "description": "Our on-demand repair service mini program generated over $50,000 in revenue in the first quarter. The platform is reliable, and the analytics help us improve constantly.",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "Lisa Wang",
+        "label": "Founder of QuickTable",
+        "description": "The restaurant reservation mini program paid for itself in the first week. We've increased table turnover by 35% and customer satisfaction has never been higher.",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "James Carter",
+        "label": "Director of EduQuest",
+        "description": "Creating our online learning platform was astonishingly simple. We launched with 20 courses and 500 students enrolled in the first month - all without hiring a single developer.",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "Have more questions? Contact our support team for assistance.",
+    "items": [
+      {
+        "title": "What exactly is a Mini Program?",
+        "description": "Mini Programs are lightweight applications that run within platforms like WeChat, Alipay, and other super apps. They provide business functionalities without requiring users to download separate apps, offering convenience and broader reach."
+      },
+      {
+        "title": "Do I need coding knowledge to use Mini Program AI?",
+        "description": "No coding knowledge is required. Our AI-powered platform converts your business description and requirements into functional code. You can build and customize everything through our visual interface."
+      },
+      {
+        "title": "How long does it take to create and launch a mini program?",
+        "description": "Most entrepreneurs can create and launch their mini program within 72 hours. Simple projects might take as little as one day, while more complex ones with custom features might require a few additional days."
+      },
+      {
+        "title": "Can I customize the design to match my brand?",
+        "description": "Absolutely! All templates are fully customizable. You can adjust colors, fonts, layouts, and add your branding elements to create a unique look that represents your business."
+      },
+      {
+        "title": "What platforms can I publish my mini program to?",
+        "description": "Our platform supports deployment to major mini program platforms including WeChat, Alipay, Baidu, Douyin (TikTok China), and others. We handle the technical requirements for each platform."
+      },
+      {
+        "title": "Is there ongoing support after I launch?",
+        "description": "Yes, all plans include ongoing support. We provide regular updates, technical assistance, and business optimization advice to help your mini program succeed in the long term."
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "Start Your Entrepreneurial Journey Today",
+    "description": "Turn your business idea into a successful mini program in just days.",
+    "buttons": [
+      {
+        "title": "Start Building Now",
+        "url": "https://miniprogramai.com/signup",
+        "target": "_blank",
+        "icon": "GoArrowUpRight"
+      },
+      {
+        "title": "Schedule Demo",
+        "url": "https://miniprogramai.com/demo",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "Mini Program AI",
+      "description": "The AI-powered entrepreneurship program that helps you build custom mini programs without coding skills. Launch your business in days, not months.",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "Mini Program AI"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • Mini Program AI All rights reserved.",
+    "nav": {
+      "items": [
+        {
+          "title": "About",
+          "children": [
+            {
+              "title": "Features",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "Showcases",
+              "url": "/#showcase",
+              "target": "_self"
+            },
+            {
+              "title": "Pricing",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "Resources",
+          "children": [
+            {
+              "title": "Documentation",
+              "url": "https://miniprogramai.com/docs",
+              "target": "_blank"
+            },
+            {
+              "title": "Templates",
+              "url": "https://miniprogramai.com/templates",
+              "target": "_blank"
+            },
+            {
+              "title": "Blog",
+              "url": "https://miniprogramai.com/blog",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "Support",
+          "children": [
+            {
+              "title": "Help Center",
+              "url": "https://miniprogramai.com/help",
+              "target": "_blank"
+            },
+            {
+              "title": "Contact Us",
+              "url": "https://miniprogramai.com/contact",
+              "target": "_blank"
+            },
+            {
+              "title": "Status",
+              "url": "https://status.miniprogramai.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/miniprogramai",
+          "target": "_blank"
+        },
+        {
+          "title": "LinkedIn",
+          "icon": "RiLinkedinFill",
+          "url": "https://linkedin.com/company/miniprogramai",
+          "target": "_blank"
+        },
+        {
+          "title": "WeChat",
+          "icon": "RiWechatFill",
+          "url": "https://miniprogramai.com/wechat",
+          "target": "_blank"
+        },
+        {
+          "title": "Email",
+          "icon": "RiMailLine",
+          "url": "mailto:support@miniprogramai.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "Privacy Policy",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "Terms of Service",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}

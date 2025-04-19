@@ -1,0 +1,710 @@
+{
+  "template": "shipany-template-one",
+  "theme": "light",
+  "header": {
+    "brand": {
+      "title": "小程序AI",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "小程序AI"
+      },
+      "url": "/zh"
+    },
+    "nav": {
+      "items": [
+        {
+          "title": "功能特点",
+          "url": "/#feature",
+          "icon": "HiOutlineSparkles"
+        },
+        {
+          "title": "定价",
+          "url": "/#pricing",
+          "icon": "MdPayment"
+        },
+        {
+          "title": "案例展示",
+          "url": "/#showcase",
+          "icon": "BiCube",
+          "children": [
+            {
+              "title": "电商小程序",
+              "description": "AI生成电商解决方案",
+              "icon": "MdOutlineShoppingBag",
+              "url": "https://miniprogramai.com/showcase/ecommerce",
+              "target": "_blank"
+            },
+            {
+              "title": "服务预约小程序",
+              "description": "AI驱动的预约系统",
+              "icon": "MdOutlineCalendarToday",
+              "url": "https://miniprogramai.com/showcase/booking",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "buttons": [
+      {
+        "title": "立即开始",
+        "url": "https://miniprogramai.com",
+        "target": "_blank",
+        "variant": "link",
+        "icon": "RiArrowRightUpLine"
+      }
+    ],
+    "show_sign": true,
+    "show_theme": true,
+    "show_locale": true
+  },
+  "hero": {
+    "title": "使用AI生成代码，快速创建您的小程序业务",
+    "highlight_text": "AI生成",
+    "description": "小程序AI是一个创业项目代码生成器，帮助您无需编程技能即可构建定制小程序。<br/>几分钟内启动业务，而不是几个月。",
+    "announcement": {
+      "label": "新品",
+      "title": "🚀 限时特惠",
+      "url": "/#pricing"
+    },
+    "tip": "🎁 早期用户可享受7折优惠",
+    "buttons": [
+      {
+        "title": "开始创建",
+        "icon": "RiFlashlightFill",
+        "url": "/#pricing",
+        "target": "_self",
+        "variant": "default"
+      },
+      {
+        "title": "查看演示",
+        "icon": "RiEyeLine",
+        "url": "/#showcase",
+        "target": "_self",
+        "variant": "outline"
+      }
+    ],
+    "show_happy_users": true,
+    "show_badge": false
+  },
+  "branding": {
+    "title": "由领先技术驱动",
+    "items": [
+      {
+        "title": "Next.js",
+        "image": {
+          "src": "/imgs/logos/nextjs.svg",
+          "alt": "Next.js"
+        }
+      },
+      {
+        "title": "React",
+        "image": {
+          "src": "/imgs/logos/react.svg",
+          "alt": "React"
+        }
+      },
+      {
+        "title": "TailwindCSS",
+        "image": {
+          "src": "/imgs/logos/tailwindcss.svg",
+          "alt": "TailwindCSS"
+        }
+      },
+      {
+        "title": "OpenAI",
+        "image": {
+          "src": "/imgs/logos/openai.svg",
+          "alt": "OpenAI"
+        }
+      },
+      {
+        "title": "微信",
+        "image": {
+          "src": "/imgs/logos/wechat.svg",
+          "alt": "微信"
+        }
+      }
+    ]
+  },
+  "introduce": {
+    "name": "introduce",
+    "title": "什么是小程序AI",
+    "label": "介绍",
+    "description": "小程序AI是一款革命性的代码生成器，帮助创业者为微信、支付宝等平台创建定制小程序，无需编程知识。",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "items": [
+      {
+        "title": "AI驱动生成",
+        "description": "只需用普通语言描述您的业务创意，我们的AI就能为您生成完整的代码结构。",
+        "icon": "RiRobot2Line"
+      },
+      {
+        "title": "即用型模板",
+        "description": "选择针对各种业务模型设计的行业特定模板，并立即自定义它们。",
+        "icon": "RiLayoutGridLine"
+      },
+      {
+        "title": "无代码平台",
+        "description": "通过我们直观的可视界面构建、编辑和启动您的小程序 - 无需编码。",
+        "icon": "RiCodeBoxLine"
+      }
+    ]
+  },
+  "benefit": {
+    "name": "benefit",
+    "title": "为什么选择小程序AI",
+    "label": "优势",
+    "description": "比传统开发更快、更智能、更经济地启动您的小程序业务。",
+    "items": [
+      {
+        "title": "节省时间和成本",
+        "description": "将开发时间从数月缩短到数天，与雇佣开发人员相比节省高达90%的成本。",
+        "icon": "RiTimeLine",
+        "image": {
+          "src": "/imgs/features/2.png"
+        }
+      },
+      {
+        "title": "行业优化解决方案",
+        "description": "获取专为您的行业设计的小程序，内置最佳实践和优化转化流程。",
+        "icon": "RiStore2Line",
+        "image": {
+          "src": "/imgs/features/3.png"
+        }
+      },
+      {
+        "title": "面向未来的业务",
+        "description": "自动更新、可扩展架构和持续AI改进确保您的小程序保持最新状态。",
+        "icon": "RiRocketLine",
+        "image": {
+          "src": "/imgs/features/4.png"
+        }
+      }
+    ]
+  },
+  "usage": {
+    "name": "usage",
+    "title": "如何创建您的小程序",
+    "description": "通过四个简单步骤启动您的业务：",
+    "image": {
+      "src": "/imgs/features/1.png"
+    },
+    "image_position": "left",
+    "text_align": "center",
+    "items": [
+      {
+        "title": "描述您的业务",
+        "description": "向我们的AI介绍您的业务创意、目标受众和小程序所需的关键功能。",
+        "image": {
+          "src": "/imgs/features/5.png"
+        }
+      },
+      {
+        "title": "自定义您的模板",
+        "description": "选择模板并使用您的品牌、内容和特定业务需求对其进行个性化设置。",
+        "image": {
+          "src": "/imgs/features/6.png"
+        }
+      },
+      {
+        "title": "审核和编辑",
+        "description": "预览您的小程序，使用我们的可视编辑器进行调整，并测试所有功能。",
+        "image": {
+          "src": "/imgs/features/7.png"
+        }
+      },
+      {
+        "title": "部署和上线",
+        "description": "一键将您的小程序发布到您选择的平台，开始获取客户。",
+        "image": {
+          "src": "/imgs/features/8.png"
+        }
+      }
+    ]
+  },
+  "feature": {
+    "name": "feature",
+    "title": "小程序AI核心功能",
+    "description": "创业者成功构建小程序业务所需的一切。",
+    "items": [
+      {
+        "title": "AI代码生成",
+        "description": "将普通文本描述转换为功能齐全、经过优化的小程序代码。",
+        "icon": "RiCodeLine"
+      },
+      {
+        "title": "多平台支持",
+        "description": "为微信、支付宝、百度和其他流行平台创建小程序。",
+        "icon": "RiSmartphoneLine"
+      },
+      {
+        "title": "支付集成",
+        "description": "内置支持多种支付网关，包括微信支付、支付宝等。",
+        "icon": "RiSecurePaymentLine"
+      },
+      {
+        "title": "业务分析",
+        "description": "全面的分析仪表盘，跟踪用户参与度、销售额和增长情况。",
+        "icon": "RiBarChart2Line"
+      },
+      {
+        "title": "客户管理",
+        "description": "集成的CRM系统，管理客户、订单和沟通。",
+        "icon": "RiUserSettingsLine"
+      },
+      {
+        "title": "营销工具",
+        "description": "内置营销功能，包括促销活动、会员计划和社交分享。",
+        "icon": "RiMegaphoneLine"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "title": "使用我们平台构建的成功小程序",
+    "description": "加入已使用小程序AI启动业务的数百位创业者行列。",
+    "items": [
+      {
+        "title": "鲜果超市",
+        "description": "生鲜配送小程序",
+        "url": "https://miniprogramai.com/showcase/freshmart",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/1.png"
+        }
+      },
+      {
+        "title": "美丽预约",
+        "description": "美容沙龙预约系统",
+        "url": "https://miniprogramai.com/showcase/beautybook",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/2.png"
+        }
+      },
+      {
+        "title": "科技修复",
+        "description": "按需维修服务",
+        "url": "https://miniprogramai.com/showcase/techfix",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/3.png"
+        }
+      },
+      {
+        "title": "健身达人",
+        "description": "健身训练应用",
+        "url": "https://miniprogramai.com/showcase/fitpro",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/4.png"
+        }
+      },
+      {
+        "title": "快捷订桌",
+        "description": "餐厅预订系统",
+        "url": "https://miniprogramai.com/showcase/quicktable",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/5.png"
+        }
+      },
+      {
+        "title": "教育先锋",
+        "description": "在线学习平台",
+        "url": "https://miniprogramai.com/showcase/eduquest",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/6.png"
+        }
+      },
+      {
+        "title": "时尚购",
+        "description": "时尚电商",
+        "url": "https://miniprogramai.com/showcase/styleshop",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/7.png"
+        }
+      },
+      {
+        "title": "城市指南",
+        "description": "城市旅游小程序",
+        "url": "https://miniprogramai.com/showcase/localguide",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/8.png"
+        }
+      },
+      {
+        "title": "医疗连接",
+        "description": "医疗预约系统",
+        "url": "https://miniprogramai.com/showcase/mediconnect",
+        "target": "_blank",
+        "image": {
+          "src": "/imgs/showcases/9.png"
+        }
+      }
+    ]
+  },
+  "stats": {
+    "name": "stats",
+    "label": "统计",
+    "title": "不断壮大的创业者社区",
+    "description": "加入已使用我们平台开发小程序的成千上万的企业主行列。",
+    "icon": "FaRegHeart",
+    "items": [
+      {
+        "title": "信任",
+        "label": "5,000+",
+        "description": "创业者"
+      },
+      {
+        "title": "提供",
+        "label": "30+",
+        "description": "行业模板"
+      },
+      {
+        "title": "上线时间",
+        "label": "72",
+        "description": "小时或更短"
+      }
+    ]
+  },
+  "pricing": {
+    "name": "pricing",
+    "label": "定价",
+    "title": "简单透明的定价",
+    "description": "选择适合您的业务需求和预算的计划。",
+    "groups": [],
+    "items": [
+      {
+        "title": "入门版",
+        "description": "适合首次推出小程序的小型企业。",
+        "features_title": "包含",
+        "features": [
+          "1个基础功能小程序",
+          "电子商务功能",
+          "客户管理系统",
+          "基础分析",
+          "支付网关集成",
+          "标准模板",
+          "邮件支持"
+        ],
+        "interval": "one-time",
+        "amount": 9900,
+        "cn_amount": 69900,
+        "currency": "USD",
+        "price": "$99",
+        "original_price": "$149",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "完美适合初创企业和小型企业！",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "starter",
+        "product_name": "小程序AI入门版",
+        "credits": 100,
+        "valid_months": 1
+      },
+      {
+        "title": "成长版",
+        "description": "适合有高级需求的成长型企业。",
+        "label": "热门",
+        "features_title": "包含入门版所有功能，另加",
+        "features": [
+          "3个高级功能小程序",
+          "高级电子商务功能",
+          "CRM集成",
+          "全面分析",
+          "多支付网关",
+          "高级模板",
+          "优先邮件支持",
+          "营销自动化工具"
+        ],
+        "interval": "one-time",
+        "amount": 19900,
+        "cn_amount": 139900,
+        "currency": "USD",
+        "price": "$199",
+        "original_price": "$299",
+        "unit": "USD",
+        "is_featured": true,
+        "tip": "企业最受欢迎的选择！",
+        "button": {
+          "title": "立即开始",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "growth",
+        "product_name": "小程序AI成长版",
+        "credits": 200,
+        "valid_months": 3
+      },
+      {
+        "title": "企业版",
+        "description": "为大型企业和代理商提供的定制解决方案。",
+        "features_title": "包含成长版所有功能，另加",
+        "features": [
+          "无限小程序",
+          "定制功能开发",
+          "白标选项",
+          "API访问",
+          "企业级分析",
+          "定制集成",
+          "专属客户经理",
+          "24/7优先支持"
+        ],
+        "interval": "one-time",
+        "amount": 49900,
+        "cn_amount": 299900,
+        "currency": "USD",
+        "price": "$499",
+        "original_price": "$699",
+        "unit": "USD",
+        "is_featured": false,
+        "tip": "为认真经营的企业提供完整的企业解决方案！",
+        "button": {
+          "title": "联系销售",
+          "url": "/#pricing",
+          "icon": "RiFlashlightFill"
+        },
+        "product_id": "enterprise",
+        "product_name": "小程序AI企业版",
+        "credits": 300,
+        "valid_months": 12
+      }
+    ]
+  },
+  "testimonial": {
+    "name": "testimonial",
+    "label": "用户评价",
+    "title": "客户成功案例",
+    "description": "听听那些使用小程序AI将业务创意变为现实的创业者怎么说。",
+    "icon": "GoThumbsup",
+    "items": [
+      {
+        "title": "王丽丽",
+        "label": "鲜果超市创始人",
+        "description": "从概念到上线仅用3天！我们的生鲜配送小程序帮助我们在第一个月就吸引了1,000位客户。AI生成的代码运行完美无缺。",
+        "image": {
+          "src": "/imgs/users/1.png"
+        }
+      },
+      {
+        "title": "张明",
+        "label": "时尚购店主",
+        "description": "作为一个零编程知识的人，我从未想过能够创建电子商务业务。小程序AI让这成为可能，现在我们每天处理超过100个订单。",
+        "image": {
+          "src": "/imgs/users/2.png"
+        }
+      },
+      {
+        "title": "陈婷",
+        "label": "美丽预约创始人",
+        "description": "我们创建的沙龙预约系统完全改变了我们的业务。客户喜欢这种简单的预约体验，我们减少了75%的未赴约情况。",
+        "image": {
+          "src": "/imgs/users/3.png"
+        }
+      },
+      {
+        "title": "李杰",
+        "label": "科技修复CEO",
+        "description": "我们的按需维修服务小程序在第一季度就创造了超过35万元的收入。平台非常可靠，分析功能帮助我们不断改进。",
+        "image": {
+          "src": "/imgs/users/4.png"
+        }
+      },
+      {
+        "title": "赵琳",
+        "label": "快捷订桌创始人",
+        "description": "餐厅预订小程序在第一周就收回了成本。我们提高了35%的餐桌周转率，客户满意度也达到了前所未有的高度。",
+        "image": {
+          "src": "/imgs/users/5.png"
+        }
+      },
+      {
+        "title": "郑伟",
+        "label": "教育先锋总监",
+        "description": "创建我们的在线学习平台异常简单。我们上线了20门课程，第一个月就有500名学生注册 - 所有这些都不需要雇佣一个开发人员。",
+        "image": {
+          "src": "/imgs/users/6.png"
+        }
+      }
+    ]
+  },
+  "faq": {
+    "name": "faq",
+    "label": "常见问题",
+    "title": "常见问题解答",
+    "description": "还有更多问题？联系我们的支持团队获取帮助。",
+    "items": [
+      {
+        "title": "什么是小程序？",
+        "description": "小程序是在微信、支付宝等超级应用内运行的轻量级应用。它们无需用户下载单独的应用就能提供业务功能，提供便利性和更广泛的覆盖范围。"
+      },
+      {
+        "title": "使用小程序AI需要编程知识吗？",
+        "description": "不需要编程知识。我们的AI驱动平台将您的业务描述和需求转换为功能代码。您可以通过我们的可视界面构建和自定义一切。"
+      },
+      {
+        "title": "创建和启动小程序需要多长时间？",
+        "description": "大多数创业者可以在72小时内创建并启动他们的小程序。简单项目可能只需要一天时间，而具有自定义功能的复杂项目可能需要额外几天。"
+      },
+      {
+        "title": "我可以自定义设计以匹配我的品牌吗？",
+        "description": "当然可以！所有模板都完全可自定义。您可以调整颜色、字体、布局，并添加您的品牌元素，创建代表您业务的独特外观。"
+      },
+      {
+        "title": "我可以将我的小程序发布到哪些平台？",
+        "description": "我们的平台支持部署到主要小程序平台，包括微信、支付宝、百度、抖音等。我们处理每个平台的技术要求。"
+      },
+      {
+        "title": "启动后是否有持续支持？",
+        "description": "是的，所有计划都包括持续支持。我们提供定期更新、技术援助和业务优化建议，帮助您的小程序长期成功。"
+      }
+    ]
+  },
+  "cta": {
+    "name": "cta",
+    "title": "今天就开始您的创业之旅",
+    "description": "几天内将您的业务创意变成成功的小程序。",
+    "buttons": [
+      {
+        "title": "立即开始构建",
+        "url": "https://miniprogramai.com/signup",
+        "target": "_blank",
+        "icon": "GoArrowUpRight"
+      },
+      {
+        "title": "预约演示",
+        "url": "https://miniprogramai.com/demo",
+        "target": "_blank",
+        "variant": "outline"
+      }
+    ]
+  },
+  "footer": {
+    "name": "footer",
+    "brand": {
+      "title": "小程序AI",
+      "description": "AI驱动的创业项目，帮助您无需编程技能即可构建定制小程序。几天内启动业务，而不是几个月。",
+      "logo": {
+        "src": "/logo.png",
+        "alt": "小程序AI"
+      },
+      "url": "/"
+    },
+    "copyright": "© 2025 • 小程序AI 保留所有权利。",
+    "nav": {
+      "items": [
+        {
+          "title": "关于",
+          "children": [
+            {
+              "title": "功能特点",
+              "url": "/#feature",
+              "target": "_self"
+            },
+            {
+              "title": "案例展示",
+              "url": "/#showcase",
+              "target": "_self"
+            },
+            {
+              "title": "定价",
+              "url": "/#pricing",
+              "target": "_self"
+            }
+          ]
+        },
+        {
+          "title": "资源",
+          "children": [
+            {
+              "title": "文档",
+              "url": "https://miniprogramai.com/docs",
+              "target": "_blank"
+            },
+            {
+              "title": "模板",
+              "url": "https://miniprogramai.com/templates",
+              "target": "_blank"
+            },
+            {
+              "title": "博客",
+              "url": "https://miniprogramai.com/blog",
+              "target": "_blank"
+            }
+          ]
+        },
+        {
+          "title": "支持",
+          "children": [
+            {
+              "title": "帮助中心",
+              "url": "https://miniprogramai.com/help",
+              "target": "_blank"
+            },
+            {
+              "title": "联系我们",
+              "url": "https://miniprogramai.com/contact",
+              "target": "_blank"
+            },
+            {
+              "title": "系统状态",
+              "url": "https://status.miniprogramai.com",
+              "target": "_blank"
+            }
+          ]
+        }
+      ]
+    },
+    "social": {
+      "items": [
+        {
+          "title": "X",
+          "icon": "RiTwitterXFill",
+          "url": "https://x.com/miniprogramai",
+          "target": "_blank"
+        },
+        {
+          "title": "领英",
+          "icon": "RiLinkedinFill",
+          "url": "https://linkedin.com/company/miniprogramai",
+          "target": "_blank"
+        },
+        {
+          "title": "微信",
+          "icon": "RiWechatFill",
+          "url": "https://miniprogramai.com/wechat",
+          "target": "_blank"
+        },
+        {
+          "title": "邮箱",
+          "icon": "RiMailLine",
+          "url": "mailto:support@miniprogramai.com",
+          "target": "_self"
+        }
+      ]
+    },
+    "agreement": {
+      "items": [
+        {
+          "title": "隐私政策",
+          "url": "/privacy-policy"
+        },
+        {
+          "title": "服务条款",
+          "url": "/terms-of-service"
+        }
+      ]
+    }
+  }
+}
