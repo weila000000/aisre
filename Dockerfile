@@ -1,45 +1,37 @@
 FROM node:18-alpine AS base
 
-# Install dependencies only when needed
+# 设置工作目录
+WORKDIR /app
+
+# 安装依赖
 FROM base AS deps
-RUN apk add --no-cache libc6-compat && yarn global add pnpm
+RUN npm install -g pnpm
+COPY package.json pnpm-lock.yaml ./
+RUN pnpm install --frozen-lockfile
 
-WORKDIR /app
-
-# Install dependencies based on the preferred package manager
-COPY package.json pnpm-lock.yaml* ./
-RUN pnpm i --frozen-lockfile
-
-# Rebuild the source code only when needed
-FROM deps AS builder
-
-WORKDIR /app
-
-# Install dependencies based on the preferred package manager
+# 构建应用
+FROM base AS builder
+RUN npm install -g pnpm
+COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN pnpm build
 
-# Production image, copy all the files and run next
+# 生产环境
 FROM base AS runner
-WORKDIR /app
+ENV NODE_ENV=production
 
-RUN addgroup --system --gid 1001 nodejs && \
-    adduser --system --uid 1001 nextjs && \
-    mkdir .next && \
-    chown nextjs:nodejs .next
-
-COPY --from=builder /app/public ./public
-COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
-COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
-
+# 创建非root用户
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
 USER nextjs
+
+COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/public ./public
 
 EXPOSE 3000
 
-ENV NODE_ENV production
+ENV PORT=3000
 
-ENV PORT 3000
-ENV HOSTNAME "0.0.0.0"
-
-# server.js is created by next build from the standalone output
-CMD ["node", "server.js"]
+CMD ["npm", "start"]

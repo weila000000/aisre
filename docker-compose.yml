@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  nextjs:
+    build: .
+    container_name: aisre-nextjs
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./public:/app/public
+    networks:
+      - app-network
+
+  # nginx:
+  #   image: nginx:alpine
+  #   container_name: aisre-nginx
+  #   restart: always
+  #   ports:
+  #     - "80:80"
+  #     - "443:443"
+  #   volumes:
+  #     - ./nginx/conf:/etc/nginx/conf.d
+  #     - ./nginx/ssl:/etc/nginx/ssl
+  #     - ./nginx/logs:/var/log/nginx
+  #   depends_on:
+  #     - nextjs
+  #   networks:
+  #     - app-network
+
+networks:
+  app-network:
+    driver: bridge
